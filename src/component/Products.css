@@ -1,0 +1,12 @@
+.products{
+    /* background-color: black; */
+    margin-top: 80px;
+}
+
+@media only screen and (max-width: 600px) {
+    /* For tablets: */
+.products{
+    /* background-color: black; */
+    margin-top: 80px;
+}
+}

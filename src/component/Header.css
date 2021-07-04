@@ -1,0 +1,33 @@
+.header{
+    background-color: white !important;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom:1px solid rgb(221, 214, 214) ;
+
+}
+.nav-item>a {
+    display: flex;
+    padding: .5rem 1rem;
+    line-height: 1.5;
+    color: black;
+    margin-left: 5px !important;
+    /* background-color: aqua; */
+    text-transform: capitalize;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    text-decoration: none;
+}
+.nav-item> a:hover,::before,::after{
+    color: gray;
+    margin-left: 5px !important;
+    box-sizing: border-box;
+
+}
+.header__search{
+    margin-right: 10px;
+}
+
+.header__search input{
+    outline-width: 0;
+}
+

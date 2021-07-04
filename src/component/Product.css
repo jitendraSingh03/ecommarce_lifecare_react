@@ -1,0 +1,61 @@
+.product{
+    display: grid;
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    border:1px solid lightgray;
+    opacity: 1;
+    cursor: pointer; 
+}
+
+.product:hover{
+    opacity: 0.7;
+}
+
+.product >img{
+    border-radius: 5px;
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+
+
+
+}
+
+.Heart__icon{
+    /* color: aqua; */
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 5px;
+   
+}
+.rating{
+    margin: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+
+}
+
+.product__detail>h1{
+    /* color: aqua; */
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.product__detail>h1>button{
+    background-color: rgb(129, 127, 127);
+    color: white;
+}
+
+.product__detail>h1>button:hover{
+    background-color: white;
+    color: black;
+}
